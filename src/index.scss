@@ -6,6 +6,18 @@
   --Lft: left;
 }
 
+/* DARK THEME */
+html[data-theme="dark"] {
+  --text-color: var(--red);
+  --background-color: var(--blue);
+}
+
+/* Light Theme */
+html[data-theme="light"] {
+  --text-color: var(--grey);
+  --background-color: var(--red);
+}
+
 body {
   background-color: #142350;
   margin: 0;
