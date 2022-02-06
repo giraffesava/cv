@@ -1,0 +1,11 @@
+.navigation-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+
+  &__links {
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+  }
+}
