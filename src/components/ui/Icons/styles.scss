@@ -1,0 +1,13 @@
+.icons {
+  margin-top: 10px;
+  font-size: 32px;
+
+  a {
+    margin-right: 20px;
+    color: var(--text-color-navigation);
+    transition: color 1s, transform 1s linear;
+  }
+  a:last-child {
+    margin-right: 0;
+  }
+}
