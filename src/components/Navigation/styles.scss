@@ -1,0 +1,8 @@
+.navigation {
+  height: calc(100wh - 80px);
+  background: var(--background-color);
+  min-width: 500px;
+  max-width: 500px;
+  color: var(--text-color);
+  transition: color 1s, background-color 0.5s, transform 1s linear;
+}
