@@ -1,0 +1,17 @@
+.link {
+  width: auto;
+  font-size: 32px;
+  color: var(--text-color-navigation);
+  text-decoration: none;
+  margin: 20px 0 20px 0;
+  -webkit-user-drag: none;
+  user-select: none;
+  border-radius: 20px;
+  padding: 0 10px;
+
+  transition: color 1s, background-color 0.5s, transform 1s linear;
+  &:hover {
+    color: white;
+    transition: background-color 0.5s, color 1s, transform 1s ease-in-out;
+  }
+}
