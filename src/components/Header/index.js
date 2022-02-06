@@ -1,14 +1,21 @@
 import React from "react";
 import ToggleButton from "../ui/ToggleButton";
 import "./header.scss";
-export const Header = () => {
+
+const Header = () => {
   return (
     <div className="header">
-      <div className="header-logo">Sava's website</div>
-      <div className="header-buttons">
-        <ToggleButton />
-        <div>EN</div>
+      <div className="header__elements">
+        <div className="header__logo">
+          <h1>Sava's website</h1>
+        </div>
+        <div className="header__elements__buttons">
+          <ToggleButton />
+          <div className="header__elements__buttons__language">EN</div>
+        </div>
       </div>
     </div>
   );
 };
+
+export default Header;

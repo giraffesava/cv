@@ -14,12 +14,12 @@ const ToggleButton = () => {
   };
 
   return (
-    <>
+    <div>
       <label className="switch">
         <input type="checkbox" checked={theme === "light"} onChange={change} />
         <span className="slider round"></span>
       </label>
-    </>
+    </div>
   );
 };
 
