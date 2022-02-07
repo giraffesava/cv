@@ -1,7 +1,7 @@
 import React from "react";
-import Image from "../Image";
-import NavigationMenu from "../NavigationMenu";
-import Icons from "../ui/Icons";
+import Image from "../Image/Image";
+import NavigationMenu from "../NavigationMenu/NavigationMenu";
+import Icons from "../ui/Icons/Icons";
 import "./styles.scss";
 
 const Navigation = () => {

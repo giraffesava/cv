@@ -1,10 +1,10 @@
 import React from "react";
 import "./styles.scss";
 import { Routes, Route } from "react-router-dom";
-import AboutMe from "../NavigationMenu/AboutMe/inbox";
-import HardSkills from "../NavigationMenu/HardSkills";
-import SoftSkills from "../NavigationMenu/SoftSkills";
-import Experience from "../NavigationMenu/Experience";
+import AboutMe from "../NavigationMenu/AboutMe/AboutMe";
+import HardSkills from "../NavigationMenu/HardSkills/HardSkills";
+import SoftSkills from "../NavigationMenu/SoftSkills/SoftSkills";
+import Experience from "../NavigationMenu/Experience/Experience";
 
 const Content = () => {
   return (

@@ -1,5 +1,5 @@
 import React from "react";
-import ToggleButton from "../ui/ToggleButton";
+import ToggleButton from "../ui/ToggleButton/ToggleButton";
 import "./header.scss";
 
 const Header = () => {

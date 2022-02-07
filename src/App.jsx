@@ -1,6 +1,6 @@
-import Header from "./components/Header";
+import Header from "./components/Header/Header";
 import "./App.scss";
-import Main from "./components/Main";
+import Main from "./components/Main/Main";
 import { BrowserRouter } from "react-router-dom";
 //import Cursor from "./components/ui/Cursor";
 

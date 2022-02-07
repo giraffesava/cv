@@ -1,7 +1,7 @@
 import React from "react";
 import "./styles.scss";
 
-import CustomNavLink from "../ui/CustomNavLink";
+import CustomNavLink from "../ui/CustomNavLink/CustomNavLink";
 const NavigationMenu = () => {
   return (
     <div className="navigation-container">
