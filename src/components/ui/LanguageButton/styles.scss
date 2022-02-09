@@ -1,0 +1,10 @@
+.language {
+  font-size: 1.1rem;
+  margin: 20px;
+  padding: 5px;
+  cursor: pointer;
+  color: var(--background-color);
+  border-radius: 10px;
+  background-color: var(--button-background-color);
+  transition: color 1s, background-color 0.5s, transform 1s linear;
+}

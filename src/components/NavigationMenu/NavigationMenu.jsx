@@ -1,15 +1,16 @@
 import React from "react";
 import "./styles.scss";
-
+import { useTranslation } from "react-i18next";
 import CustomNavLink from "../ui/CustomNavLink/CustomNavLink";
 const NavigationMenu = () => {
+  const { t } = useTranslation();
   return (
     <div className="navigation-container">
       <nav className="navigation-container__links">
-        <CustomNavLink href="/">About Me</CustomNavLink>
-        <CustomNavLink href="/hard-skills">Hard Skills</CustomNavLink>
-        <CustomNavLink href="/soft-skills">Soft Skills</CustomNavLink>
-        <CustomNavLink href="/experience">Experience</CustomNavLink>
+        <CustomNavLink href="/">{t("aboutMe")}</CustomNavLink>
+        <CustomNavLink href="/hard-skills">{t("hardSkills")}</CustomNavLink>
+        <CustomNavLink href="/soft-skills">{t("softSkills")}</CustomNavLink>
+        <CustomNavLink href="/experience">{t("experience")}</CustomNavLink>
       </nav>
     </div>
   );

@@ -1,5 +1,7 @@
 import React from "react";
 import ToggleButton from "../ui/ToggleButton/ToggleButton";
+import LanguageButton from "./../ui/LanguageButton/LanguageButton";
+
 import "./header.scss";
 
 const Header = () => {
@@ -11,7 +13,7 @@ const Header = () => {
         </div>
         <div className="header__elements__buttons">
           <ToggleButton />
-          <div className="header__elements__buttons__language">EN</div>
+          <LanguageButton />
         </div>
       </div>
     </div>
