@@ -11,7 +11,7 @@
 
   transition: color 1s, background-color 0.5s, transform 1s linear;
   &:hover {
-    color: white;
+    color: var(--text-color-hover);
     transition: background-color 0.5s, color 1s, transform 1s ease-in-out;
   }
 }
