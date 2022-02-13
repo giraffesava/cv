@@ -19,6 +19,7 @@ html[data-theme="light"] {
   --background-color: #{$white};
   --background-color-content: #{$orange};
   --button-background-color: #{$orange};
+  --text-color-content: #{$white};
 }
 
 /* DARK THEME */
@@ -29,4 +30,5 @@ html[data-theme="dark"] {
   --background-color: #{$dark-grey};
   --background-color-content: #{$bright-grey};
   --button-background-color: #{$violet};
+  --text-color-content: #{$white};
 }

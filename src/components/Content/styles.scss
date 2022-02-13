@@ -1,6 +1,9 @@
 .content {
   width: 100%;
   background-color: var(--background-color-content);
+  //background-image: linear-gradient(to right, #ff758c 0%, #ff7eb3 100%);
   transition: color 1s, background-color 0.5s, transform 1s linear;
   border-top-left-radius: 20px;
+  color: var(--text-color-content);
+  font-size: 40px;
 }
