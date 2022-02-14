@@ -3,5 +3,30 @@
   "aboutMe": "About Me",
   "hardSkills": "Hard Skills",
   "softSkills": "Soft Skills",
-  "experience": "Experience"
+  "experience": "Experience",
+  "aboutMePageTitles": {
+    "age": "Age",
+    "name": "Name",
+    "interests": "Interests"
+  },
+  "aboutMePage": {
+    "age": { "title": "Age", "value": 26 },
+    "name": { "title": "Name", "value": "Savely (short name - Sava)" },
+    "education": {
+      "title": "Education",
+      "value": "I have a bachelor degree in Siberian Technical University. My speciality is automation of transport and technological complexes"
+    },
+    "interests": {
+      "title": "Interests",
+      "value": "I like programming, learning english, working out, nature, hiking."
+    }
+  },
+  "hardSkillsPage": {
+    "0": "I am always interested in learning new things and constantly trying new technologies.",
+    "1": "At the moment a know:",
+    "2": "Javascript, Typescript.",
+    "3": "React, Vue.",
+    "4": "Redux, Vuex, Mobx.",
+    "5": "Css, scss, styled-components."
+  }
 }
