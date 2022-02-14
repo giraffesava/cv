@@ -50,7 +50,7 @@ input:checked + .slider:before {
   -webkit-transform: translateX(27px);
   -ms-transform: translateX(27px);
   transform: translateX(27px);
-  background-color: #fb9335;
+  background-color: var(--slider-background-color);
   background-image: url(./../../../assets/img/toggleLight.png);
   background-position: left 6px top 6px;
   background-size: 60%;

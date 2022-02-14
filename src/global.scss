@@ -3,23 +3,22 @@ $bright-grey: #292929;
 $white: #ffffff;
 $orange: #fb9335;
 $violet: #bb86fc;
+$blue: #2c608f;
 
-// :root {
-//   //Varibles
-// }
 body {
   margin: 0;
   padding: 0;
 }
 /* Light Theme */
 html[data-theme="light"] {
-  --text-color-header: #{$orange};
-  --text-color-navigation: #{$orange};
+  --text-color-header: #{$blue};
+  --text-color-navigation: #{$blue};
   --text-color-hover: #{$dark-grey};
   --background-color: #{$white};
-  --background-color-content: #{$orange};
-  --button-background-color: #{$orange};
+  --background-color-content: #{$blue};
+  --button-background-color: #{$blue};
   --text-color-content: #{$white};
+  --slider-background-color: #{$blue};
 }
 
 /* DARK THEME */
